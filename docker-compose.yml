@@ -2,11 +2,11 @@ version: '3.7'
 
 services:
   frontend:
-    image: mawlle/maxgram-frontend
+    image: gemsioxa/dmitter-frontend
     ports:
       - 80:80
 
   backend:
-    image: mawlle/maxgram
+    image: gemsioxa/dmitter
     ports:
       - 8000:8000
